@@ -12,7 +12,7 @@
 
   void main()
   {
-    Usuario u=usuarioNew();
+    Usuario *u=usuarioNew();
     printf("Hola Mundo.\n");
 
   } 
