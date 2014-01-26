@@ -1,0 +1,28 @@
+#include<stdio.h>
+{
+  typedef char String[100];
+ 
+  typedef struct Usuario{
+	String nombre;
+  }Usuario;  
+	
+
+  Usuario*usuarioNew();
+
+
+  void main()
+  {
+    Usuario *u=usuarioNew();
+    printf("Hola Mundo.\n");
+
+  } 
+	
+  Usuario*usuarioNew(){
+  Usuario*user=malloc(sizeof(Usuario));  
+	return user;
+  }
+	
+
+
+} 
+
